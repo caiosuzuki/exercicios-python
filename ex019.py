@@ -1,0 +1,10 @@
+from random import choice
+
+aluno1 = input('Digite o nome do 1o aluno: ')
+aluno2 = input('Digite o nome do 2o aluno: ')
+aluno3 = input('Digite o nome do 3o aluno: ')
+aluno4 = input('Digite o nome do 4o aluno: ')
+alunos = [aluno1, aluno2, aluno3, aluno4]
+escolhido = choice(alunos)
+print('O aluno escolhido para apagar o quadro foi: {}'.format(escolhido))
+
